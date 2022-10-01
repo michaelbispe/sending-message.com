@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.images{
+    background-image: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.con-form{
+    position: absolute;
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+   text-align: center;
+   left: 450px;
+}
+
+.form-control{
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid gray;
+    background: transparent;
+    outline: none;
+    margin-bottom: 16px;
+    font-size: 15px;
+    color: #fff;
+}
+input{
+    height: 45px;
+}
+button {
+background: #ff5722;
+border-color: transparent;
+font-size: 19px;
+font-weight: bold;
+letter-spacing: 2px;
+height: 50px;
+margin-top: 20px;
+}
